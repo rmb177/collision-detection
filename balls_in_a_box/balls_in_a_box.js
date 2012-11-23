@@ -64,8 +64,7 @@
   };
 
   init = function() {
-    var ball, context, _fn, _i, _len;
-    context = document.getElementById("bounds").getContext('2d');
+    var ball, _fn, _i, _len;
     _fn = function(ball) {
       ball.posX = Math.random() * 250;
       ball.posY = Math.random() * 250;

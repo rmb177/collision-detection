@@ -58,8 +58,6 @@ nextFrame = ->
 
 
 init = ->
-   context = document.getElementById("bounds").getContext('2d')
-
    for ball in balls
       do (ball) ->
          ball.posX = Math.random() * 250
