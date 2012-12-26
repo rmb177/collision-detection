@@ -59,10 +59,9 @@ nextFrame = ->
 
 init = ->
    for ball in balls
-      do (ball) ->
-         ball.posX = Math.random() * 250
-         ball.posY = Math.random() * 250
-         drawBall ball
+      ball.posX = Math.random() * 250
+      ball.posY = Math.random() * 250
+      drawBall ball
 
    frameTimer = setTimeout(nextFrame, 10)
 

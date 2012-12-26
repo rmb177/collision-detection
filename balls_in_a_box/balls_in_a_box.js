@@ -64,15 +64,12 @@
   };
 
   init = function() {
-    var ball, _fn, _i, _len;
-    _fn = function(ball) {
-      ball.posX = Math.random() * 250;
-      ball.posY = Math.random() * 250;
-      return drawBall(ball);
-    };
+    var ball, _i, _len;
     for (_i = 0, _len = balls.length; _i < _len; _i++) {
       ball = balls[_i];
-      _fn(ball);
+      ball.posX = Math.random() * 250;
+      ball.posY = Math.random() * 250;
+      drawBall(ball);
     }
     return frameTimer = setTimeout(nextFrame, 10);
   };
