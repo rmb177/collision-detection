@@ -36,10 +36,10 @@ planes =
 # are based on the canvas coordinate space
 balls =
 [
-   { 'velocityX':  2, 'velocityY':  1, 'posX': 250, 'posY': 250 },
-   { 'velocityX': -2, 'velocityY':  4, 'posX': 250, 'posY': 250 },
-   { 'velocityX':  1, 'velocityY': -2, 'posX': 250, 'posY': 250 },
-   { 'velocityX':  1, 'velocityY': -3, 'posX': 250, 'posY': 250 }
+   { velocityX:  2, velocityY:  1, posX: 250, posY: 250 },
+   { velocityX: -2, velocityY:  4, posX: 250, posY: 250 },
+   { velocityX:  1, velocityY: -2, posX: 250, posY: 250 },
+   { velocityX:  1, velocityY: -3, posX: 250, posY: 250 }
 ]
 
 # Frame refresh timer

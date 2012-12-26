@@ -4,25 +4,25 @@
 
   balls = [
     {
-      'velocityX': 2,
-      'velocityY': -3,
-      'posX': 0,
-      'posY': 0
+      velocityX: 2,
+      velocityY: -3,
+      posX: 0,
+      posY: 0
     }, {
-      'velocityX': 1,
-      'velocityY': 4,
-      'posX': 0,
-      'posY': 0
+      velocityX: 1,
+      velocityY: 4,
+      posX: 0,
+      posY: 0
     }, {
-      'velocityX': 2,
-      'velocityY': 1,
-      'posX': 0,
-      'posY': 0
+      velocityX: 2,
+      velocityY: 1,
+      posX: 0,
+      posY: 0
     }, {
-      'velocityX': 3,
-      'velocityY': -2,
-      'posX': 0,
-      'posY': 0
+      velocityX: 3,
+      velocityY: -2,
+      posX: 0,
+      posY: 0
     }
   ];
 
