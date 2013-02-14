@@ -51,13 +51,13 @@ nextFrame = ->
 
    # Check if we collided with left paddle
    if (leftPaddle.posX <= ball.posX <= (leftPaddle.posX + leftPaddle.width)) and
-      (leftPaddle.posY <= ball.posY <= (leftPaddle.posY + leftPaddle.height)) and
-   ball.velocityX < 0
+    (leftPaddle.posY <= ball.posY <= (leftPaddle.posY + leftPaddle.height)) and
+    ball.velocityX < 0
       ball.velocityX = -ball.velocityX
    
    if (rightPaddle.posX <= ball.posX <= (rightPaddle.posX + rightPaddle.width)) and
-      (rightPaddle.posY <= ball.posY <= (rightPaddle.posY + rightPaddle.height)) and
-   ball.velocityX > 0
+    (rightPaddle.posY <= ball.posY <= (rightPaddle.posY + rightPaddle.height)) and
+    ball.velocityX > 0
       ball.velocityX = -ball.velocityX
    
    if ball.posX < -1 and ball.velocityX < 0
